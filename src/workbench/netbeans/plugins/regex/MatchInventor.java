@@ -10,12 +10,23 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
 
-import javax.swing.JPanel;
-
 /**
  *
  * @author Alonso del Arte
  */
-public class RegularExpressionChecker {
+public class MatchInventor {
+    
+    private final Pattern pattern;
+    
+    // TODO: Write Javadoc once I get this working correctly
+    // The idea is that this will try to come up with an example 
+    // <code>String</code> that matches the regular expression.
+    String getExample() {
+        return "Sorry, not implemented yet";
+    }
+    
+    MatchInventor(Pattern patt) {
+        this.pattern = patt;
+    }
     
 }
